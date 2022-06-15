@@ -1,16 +1,16 @@
 <% if current_user %><% set_category_user('blog') %><% end %>
 
 <% content_for :head do %>
-  <meta name="description" content="Pavilion's example blog for our Blog Landing Pages">
+  <meta name="description" content="Stay up to date on Radix DLT and its ecosystem on RadixTalk News">
   <meta property="og:title" content="<%= @page_title %>" />
   <meta property="og:description" content="Pavilion's example blog for our Blog Landing Pages" />
-  <meta property="og:image" content="https://pavilion-assets.nyc3.digitaloceanspaces.com/landing/logo-blog.png" />
+  <meta property="og:image" content="https://radixtalk.com/uploads/default/original/1X/3598b330b5e00d9dd634fac65559b5643adc7bee.png" />
 <% end %>
 
 <%= render partial: "header", locals: {
-  logo_url: "https://pavilion-assets.nyc3.digitaloceanspaces.com/landing/logo-blog.png",
-  title: "Try Blog",
-  root: "/blog"
+  logo_url: "https://radixtalk.com/uploads/default/original/1X/3598b330b5e00d9dd634fac65559b5643adc7bee.png",
+  title: "RadixTalk News",
+  root: "/news"
 } %>
 
 <div class="blog-title">
